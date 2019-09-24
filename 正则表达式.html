@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <script language = "javascript">
+  var rex1 = new RegExp("[1-2]/d{3}-?[0-1]/d-?[0-3]/d");
+  var date = prompt("验证日期格式是否正确：","20190810");
+
+  if(rex1.exec(date))
+	document.write("正确");
+  else
+	document.write("错误");
+
+  </script>
+ </HEAD>
+
+ <BODY>
+  
+ </BODY>
+</HTML>
